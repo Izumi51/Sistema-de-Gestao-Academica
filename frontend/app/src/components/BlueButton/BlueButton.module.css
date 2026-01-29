@@ -1,0 +1,18 @@
+.blueButton{
+    background-color: #1773C5;
+    width: 30%;
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    &:hover{
+        cursor: pointer;
+        scale: calc(1.05);
+        transition: 0.2s;
+    }
+}
