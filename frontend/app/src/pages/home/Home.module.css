@@ -6,6 +6,7 @@ header{
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     font-family: Inter;
+    font-size: small;
 
     img{
         margin: 0 5%;
@@ -46,5 +47,52 @@ ul{
     a{
         text-decoration: none;
         color: black;
+    }
+}
+
+.heroSection{
+
+    width: 95%;
+    margin: auto;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div{
+        width: 60%;
+        padding: 0 2%;
+
+        h1{
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 3rem;
+            padding: 1% 0;
+        }
+
+        span{
+            color: #1773C5;
+            font-weight: 600;
+
+        }
+
+        h2{
+            font-family: Inter;
+            font-weight: 500;
+            font-size: medium;
+            padding: 3% 0;
+        }
+    }
+
+    img{
+        transform: rotate(20deg);
+        border-radius: 20px;
+        width: 50%;
+        border: 2px solid #3d86c625;
+        padding: 1%;
+        position: relative;
+        top: 10vh;
+        left: 3%;
+        
     }
 }
