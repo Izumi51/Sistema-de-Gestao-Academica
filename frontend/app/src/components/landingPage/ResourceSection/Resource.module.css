@@ -1,0 +1,21 @@
+.Resource{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: xx-large;
+        padding: 5%;
+    }
+}
+
+.ResourcesBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
