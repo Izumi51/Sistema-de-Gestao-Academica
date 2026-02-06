@@ -7,21 +7,51 @@ header{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     font-family: Inter;
     font-size: small;
+    overflow: auto;
 
     img{
         margin: 0 5%;
         width: 10%;
     }
+    /*Querys Header img*/
+    @media screen and (max-width: 885px) {
+        img {
+            width: 15%;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        img {
+            width: 25%;
+        }
+    }
+}
+/*Querys Header*/
+@media screen and (max-width: 800px) {
+    header {
+        height: 8vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        height: 20vh;
+    }
 }
 
 nav{
     min-width: 60%;
-    height: 100%;
-    padding: 0 3%;
+    height: 80%;
+    padding: 0 2% 0 0;
     display: flex;
     align-items: center;
     font-weight: 600;
-    
+}
+/*Query nav*/
+@media screen and (max-width: 500px) {
+    nav {
+        justify-content: space-between;
+        width: 95%;
+    }
 }
 
 ul{
@@ -36,6 +66,7 @@ ul{
     li{
         padding: 3%;
         list-style: none;
+        text-wrap: nowrap;
 
         &:nth-child(odd):hover{
             background-color: #3d86c625;
@@ -43,15 +74,32 @@ ul{
             border-radius: 10px;
         }
     }
+    /*Querys li*/
+    @media screen and (max-width: 885px) {
+        li {
+            font-size: 1rem;
+        }
+    }
 
     a{
         text-decoration: none;
         color: black;
     }
+
+}
+/*Querys ul*/
+@media screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+
+    ul li:nth-child(even){
+        display: none;
+    }
 }
 
-.heroSection{
 
+.heroSection{
     width: 95%;
     margin: auto;
     padding: 2% 0;
@@ -93,6 +141,39 @@ ul{
         position: relative;
         top: 10vh;
         left: 3%;
-        
+    }
+}
+/*Querys HeroSection*/
+@media screen and (max-width: 885px){
+    .heroSection div h1{
+        font-size: 2.4rem;
+    }
+    .heroSection img{
+        width: 60%;
+        top: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .heroSection div h1{
+        font-size: 2rem;
+    }
+    .heroSection div h2{
+        font-size: small;
+    }
+    .heroSection img{
+        top: 1vh;
+    }
+}
+@media screen and (max-width: 500px){
+    .heroSection{
+        flex-direction: column;
+    }
+    .heroSection div{
+        padding: 5% 0;
+        width: 100%;
+    }
+    .heroSection img{
+        width: 80%;
+        left: 15%;
     }
 }
