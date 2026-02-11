@@ -12,7 +12,7 @@ export function HomeHeader(){
                         <li>|</li>
                         <li><a href='#comoFunciona'>Como funciona</a></li>
                         <li>|</li>
-                        <li><a href='#sobre'>Sobre</a></li>
+                        <li><a href='#beneficios'>Beneficios</a></li>
                         <li>|</li>
                     </ul>
                     <BlueButton to="/login" text="Acessar Portal"/>
