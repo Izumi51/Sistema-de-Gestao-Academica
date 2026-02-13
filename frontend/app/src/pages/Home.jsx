@@ -5,6 +5,7 @@ import { AudienceSection } from '../components/landingPage/AudienceSection/Audie
 import { WorkSection } from '../components/landingPage/HowItsWorkSection/WorkSection'
 import { BenefitsSection } from '../components/landingPage/BenefitsSection/BenefitsSection'
 import { CtaSection } from '../components/landingPage/CtaSection/CtaSection'
+import { Footer } from '../components/shared/Footer/Footer'
 
 export function Home(){
     return(
@@ -16,6 +17,7 @@ export function Home(){
             <WorkSection/>
             <BenefitsSection/>
             <CtaSection/>
+            <Footer/>
         </>
     )
 }

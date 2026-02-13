@@ -1,4 +1,4 @@
-.Cta{
+.cta{
     width: 40%;
     margin: 1% auto;
     display: flex;
@@ -23,5 +23,16 @@
     img{
         width: 40%;
         margin: 10%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .cta{
+        width: 100%;
+    }
+
+    .cta h3{
+        font-size: 2rem;
+        margin: 10% 0 0 0;
     }
 }

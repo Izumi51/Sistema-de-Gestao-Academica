@@ -24,12 +24,23 @@
             overflow: auto;
         }
     }
+    @media screen and (max-width: 360px) {
+        img {
+            width: 30%;
+            overflow: auto;
+        }
+    }
 }
 /*Querys Header*/
 @media screen and (max-width: 500px) {
     .homeHeader {
         flex-direction: column;
         height: 20vh;
+    }
+}
+@media screen and (max-width: 360px) {
+    .homeHeader{
+        height: fit-content;
     }
 }
 
@@ -49,7 +60,7 @@ nav{
     }
 }
 
-ul{
+.linkBox{
     width: 100%;
     display: flex;
     justify-content: space-evenly;

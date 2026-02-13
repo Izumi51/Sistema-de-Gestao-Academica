@@ -4,7 +4,7 @@ import {BlueButton} from '@/components/shared/BlueButton/BlueButton.jsx'
 
 export function CtaSection (){
     return(
-        <section className={styles.Cta}>
+        <section className={styles.cta}>
             <h3>Transforme sua gestão acadêmica</h3>
             <p>A solução acadêmica que sua instituição merece.</p>
             <img src={logoSmartEdu} alt="" />

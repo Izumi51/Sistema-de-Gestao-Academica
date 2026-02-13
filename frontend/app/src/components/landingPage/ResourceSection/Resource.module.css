@@ -1,4 +1,4 @@
-.Resource{
+.resource{
     width: 90%;
     margin: auto;
     display: flex;
@@ -12,10 +12,28 @@
         font-size: xx-large;
         padding: 5%;
     }
+    @media screen and (max-width: 500px){
+        h3{
+            font-size: 1.5rem;
+            margin: 10% 0 0 0 ;
+        }
+    }
 }
 
-.ResourcesBox{
+
+.resourcesBox{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+@media screen and (max-width: 885px){
+    .resourcesBox {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .resourcesBox {
+        flex-direction: column;
+        width: 50%;
+    }
 }

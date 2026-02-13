@@ -7,7 +7,7 @@ export function HomeHeader(){
         <header className={styles.homeHeader}>
             <img src={Logo} alt="SmartEducation" />
                 <nav>
-                    <ul>
+                    <ul className={styles.linkBox}>
                         <li><a href='#recursos'>Recursos</a></li>
                         <li>|</li>
                         <li><a href='#comoFunciona'>Como funciona</a></li>

@@ -1,4 +1,4 @@
-.Benefits{
+.benefits{
     margin: auto;
     padding: 5%;
     display: flex;
@@ -17,9 +17,17 @@
             font-weight: 600;
         }
     }
+    @media screen and (max-width: 500px){
+        h3{
+            font-size: 1.6rem;
+            text-align: center;
+            margin: 10% 0 0 0 ;
+        
+        }
+    }
 }
 
-.BenefitsCont{
+.benefitsCont{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

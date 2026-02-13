@@ -2,9 +2,9 @@ import styles from './Benefits.module.css'
 
 export function BenefitsSection (){
     return(
-        <section className={styles.Benefits}>
+        <section className={styles.benefits}>
             <h3 id='beneficios'>Porque escolher a <span>SmartEducation</span>?</h3>
-            <div className={styles.BenefitsCont}>
+            <div className={styles.benefitsCont}>
                 <p>Acesso de qualquer dispositivo</p>
                 <p>Facilita a organização</p>
                 <p>Ajuda no desempenho</p>
