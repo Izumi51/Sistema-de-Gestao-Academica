@@ -1,0 +1,55 @@
+.containerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 340px;
+    height: 180px;
+    border: 3px solid #3D85C625;
+    border-radius: 15px;
+    font-family: Inter;
+    padding: 2%;
+    margin: 1%;
+}
+@media screen and (max-width: 500px){
+    .containerBox{
+        width: 300px;
+        height: 150px;
+        justify-content: space-around;
+        margin: 5%;
+        padding: 5%;
+    }
+}
+
+.boxContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        width: 16%;
+        margin: 5%;
+    }
+
+    p{
+        font-size: 1.5rem;
+        padding: 2%;
+        font-weight: 500;
+    }
+
+    @media screen and (max-width: 885px){
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        img{
+            width: 16%;
+        }
+
+        p{
+            text-align: center;
+            font-size: 1.3rem;
+        }
+    }
+}

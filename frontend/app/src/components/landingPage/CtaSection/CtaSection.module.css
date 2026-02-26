@@ -1,0 +1,38 @@
+.cta{
+    width: 40%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h3{
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        color: #1773C5;
+    }
+
+    p{
+        font-family: Inter;
+        font-size: medium;
+        padding: 2%;
+    }
+
+    img{
+        width: 40%;
+        margin: 10%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .cta{
+        width: 100%;
+    }
+
+    .cta h3{
+        font-size: 2rem;
+        margin: 10% 0 0 0;
+    }
+}
